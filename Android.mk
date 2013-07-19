@@ -15,7 +15,7 @@
 #
 LOCAL_PATH := $(my-dir)
 
-include $(call first-makefiles-under, \
+#include $(call first-makefiles-under, \
 		$(LOCAL_PATH)/common \
 		$(LOCAL_PATH)/$(TARGET_PREBUILT_TAG) \
 		$(LOCAL_PATH)/$(HOST_PREBUILT_TAG)) \
